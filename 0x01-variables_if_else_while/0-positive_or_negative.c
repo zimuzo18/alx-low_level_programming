@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - prints posiive, zero or negative
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int n
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -26,5 +26,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	Return(0);
+	return(0);
 }
