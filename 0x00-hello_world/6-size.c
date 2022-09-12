@@ -2,24 +2,18 @@
 
 
 /**
- * main - print the size of various types
+ *main - print the size of various types
  *
- * Description: using the man function
- * this program prints the size of of various types on computers
- * return:0
- * */
+ *Description: using the man function
+ *this program prints the size of of various types on computers
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
-	float f;
-
-	printf ("size of a char: %ld byte(s)\n", sizeof(c));
-	printf ("size of an int: %ld bytes(s)\n", sizeof(i));
-	printf ("size of a long: %ld byte(s)\n", sizeof(li));
-	printf ("size of a long long: %ld byte(s)\n", sizeof(lli));
-	printf ("size of a float: %ld bytes(s)\n", sizeof(f));
-	return(0);
+	printf("size of a char: %d byte(s)\n", sizeof(char));
+	printf("size of an int: %ld bytes(s)\n", sizeof(int));
+	printf("size of a long: %ld byte(s)\n", sizeof(long int));
+	printf("size of a long long: %ld byte(s)\n", sizeof(long long int));
+	printf("size of a float: %ld bytes(s)\n", sizeof(float));
+	return (0);
 }
