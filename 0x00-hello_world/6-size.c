@@ -6,7 +6,7 @@
  *
  * Description: using the man function
  * this program prints the size of of various types on computers
- * retunr:0
+ * return:0
  * */
 int main(void)
 {
